@@ -12,8 +12,11 @@ const config = {
 			fallback: undefined,
 			precompress: false,
 			strict: true,
-		})
-	}
+		}),
+		paths: {
+			base: '/portfolio-page',
+		}
+	},
 };
 
 export default config;
